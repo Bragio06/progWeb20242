@@ -1,8 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Italiana&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Sixtyfour+Convergence&display=swap');  
+@font-face {
+    font-family: alien;
+    src: url(/aula04/Fonte/aliendude.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
+    
 }
+
 
 body{
     display: flex;
@@ -12,24 +20,32 @@ body{
 
 }
 h1{
-    
+    font-family: "alien";
     color: blue;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .info{
     border: 1px solid black;
     width: 80%;
     height: 75px;
-    background-color:lightblue;
+    background-color:rgb(216, 237, 232);
 }
 
 
 h2 {
-    background-color: lightblue;
+    background-color: rgb(216, 237, 232);
     transition: background-color 0.3s;
 }
 h2:hover {
     background-color: rgb(6, 160, 250);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 0;
+    
 }
 
 ol{
@@ -48,16 +64,14 @@ li{
     margin: 1rem 0;
 }
 .contato {
-    background-color: lightblue;
+    background-color: rgb(216, 237, 232);
 }
 
 .academica, .comple , .SS{
-    border: 2px dashed black; 
+    border: 1px dashed black; 
     background-color: rgb(228, 228, 228); 
     text-align: center; 
     width: 80%;
     height: 30%;
-    margin: 0px 0; 
-    padding: 10px; 
 }
 
