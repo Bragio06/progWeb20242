@@ -15,17 +15,17 @@ nav, section, footer,img,header{
     width: 100%;
 }
 header,footer{
-    height: 30%;
+    height: 10%;
     display: flex;
     text-align: center;
     justify-content: center;
-    background-color: aqua;
+    background-color: rgb(0, 153, 255);
     
 }
 
 .container{
     width: 960px;
-    height: 85%;
+    height: 70%;
 
     display: flex;
     align-items: center;
@@ -34,8 +34,9 @@ header,footer{
 
     background-color: aliceblue;
 }
-.menu{
+.menu,.info{
     display: flex;
+    width: 500px;
     flex-direction: column;
     justify-content: right;
     align-items: normal;
@@ -50,3 +51,4 @@ section{
     justify-content: center;
 
 }
+
